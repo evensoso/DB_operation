@@ -1,0 +1,49 @@
+UPDATE wheres SET group_name = '' WHERE path_m = '';
+
+
+ALTER TABLE products RENAME COLUMN path TO path_m;
+
+//-------------------
+
+UPDATE products SET path_m = '' WHERE product_id = '';
+
+
+1, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/black/1/242622161_579883899825688_7205289649689982309_n.jpg
+10, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/black/10/242306134_891015388517672_5471529668283051500_n.jpg
+11, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/black/11/242213775_372612604578236_6533018006657049907_n.jpg
+12, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/black/12/242125739_3038155876441901_7284283290151547021_n.jpg
+13, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/black/13/242140428_1059518514785607_6845233996071748093_n.jpg
+14, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/black/14/242005661_4631785846833165_624487648700520950_n.jpg
+2, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/black/2/242622284_446981670007560_6212613568774172200_n.jpg
+3, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/black/3/242470914_145480447787367_2684068395512233729_n.jpg
+4, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/black/4/242505055_127392472973025_6145079203432801838_n.jpg
+5, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/black/5/242582115_394405302196186_7649295129085576725_n.jpg
+6, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/black/6/242489518_590837828712946_5081249489464195389_n.jpg
+7, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/black/7/242765215_242340821167168_5691236810747982939_n.jpg
+8, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/black/8/242481644_399584355006791_4105893875060500623_n.jpg
+9, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/black/9/242322264_1217928345372540_2736328803309970661_n.jpg
+
+15, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/15/186698595_1150915065408129_5531073900505930201_n.jpg
+15/sub, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/15/sub/186698595_1150915065408129_5531073900505930201_n%20-%20%E3%82%B3%E3%83%94%E3%83%BC%20%282%29.jpg
+16, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/16/187262819_293021959034988_5452067746265238542_n.jpg
+16/sub, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/16/sub/187262819_293021959034988_5452067746265238542_n%20-%20%E3%82%B3%E3%83%94%E3%83%BC%20%282%29.jpg
+17, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/17/187747496_162929445837618_3240742607582399052_n.jpg
+17/sub, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/17/sub/187747496_162929445837618_3240742607582399052_n%20-%20%E3%82%B3%E3%83%94%E3%83%BC%20%282%29.jpg
+18, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/18/188063155_931710704336339_6446631980017306518_n.jpg
+18/sub, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/18/sub/188063155_931710704336339_6446631980017306518_n%20-%20%E3%82%B3%E3%83%94%E3%83%BC%20%282%29.jpg
+19, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/19/189698226_105547141637857_180924298139257165_n.jpg
+19/sub, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/19/sub/189698226_105547141637857_180924298139257165_n%20-%20%E3%82%B3%E3%83%94%E3%83%BC%20%282%29.jpg
+20, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/20/192803633_512787819757709_3211696025002629058_n.jpg
+20/sub, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/20/sub/192803633_512787819757709_3211696025002629058_n%20-%20%E3%82%B3%E3%83%94%E3%83%BC%20%282%29.jpg
+21, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/21/193202893_117662243813528_619781662667381484_n.jpg
+21/sub, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/21/sub/193202893_117662243813528_619781662667381484_n%20-%20%E3%82%B3%E3%83%94%E3%83%BC%20%282%29.jpg
+22, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/22/197401167_538027710542797_4668393991532985447_n.jpg
+22/sub, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/22/sub/197401167_538027710542797_4668393991532985447_n%20-%20%E3%82%B3%E3%83%94%E3%83%BC%20%282%29.jpg
+23, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/23/217722937_532260308123063_1978304942131091974_n.jpg
+23/sub, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/23/sub/217722937_532260308123063_1978304942131091974_n%20-%20%E3%82%B3%E3%83%94%E3%83%BC%20%282%29.jpg
+24, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/24/219856777_367470448071764_1088333697831990295_n.jpg
+24/sub, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/24/sub/219856777_367470448071764_1088333697831990295_n%20-%20%E3%82%B3%E3%83%94%E3%83%BC%20%282%29.jpg
+25, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/25/240493852_3251211778337350_7544133704671514501_n%281%29.jpg
+26, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/26/240281434_3963312617125056_1834956532030566504_n.jpg
+27, https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/27/228476670_3919825904792729_8146347477233692083_n.jpg
+

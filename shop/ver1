@@ -1,0 +1,75 @@
+
+
+CREATE TABLE products(
+product_id serial, 
+name text not null,
+price text,
+contents text,
+genre text,
+path_m       text   ,         
+path_s       text[],
+PRIMARY KEY(product_id) 
+);
+
+
+INSERT INTO products
+(name,price,contents,genre)
+VALUES
+('not yet',6000,'contents','genre'),
+('not yet',6000,'contents','genre'),
+('not yet',6000,'contents','genre'),
+('not yet',6000,'contents','genre');
+
+
+INSERT INTO products
+(name,price,contents,genre)
+VALUES
+('yankee hotel foxtrot',6000,'contents','yhf'),
+('yankee hotel foxtrot',6000,'contents','yhf'),
+('yankee hotel foxtrot',6000,'contents','yhf'),
+('yankee hotel foxtrot',6000,'contents','yhf');
+
+
+DELETE FROM products WHERE product_id = 15;
+DELETE FROM products WHERE product_id = 16;
+DELETE FROM products WHERE product_id = 28;
+
+
+ALTER TABLE products ADD COLUMN genre text;
+
+
+
+
+UPDATE products SET name = 'Tokyo - Shinjuku Ano kigyo wa douyara okuzyo ni taiyo wo katte iru.' WHERE product_id = 1;
+UPDATE products SET name = 'Nando demo tsutaeru to iu koto' WHERE product_id = 2;
+UPDATE products SET name = 'Anata wa nani to tatakatte iruno' WHERE product_id = 3;
+UPDATE products SET name = 'Atami ni te katsute no kaze ga fuku' WHERE product_id = 4;
+UPDATE products SET name = 'Mamonaku ending mitai da ne De wa soro soro ikou ka' WHERE product_id = 5;
+UPDATE products SET name = 'Yume miru taxi wa kyo mo machi wo kakete yuku' WHERE product_id = 6;
+UPDATE products SET name = 'Whats in my head' WHERE product_id = 7;
+UPDATE products SET name = 'Not yet' WHERE product_id = 8;
+UPDATE products SET name = 'Karada no ichibu no ziyu kodo ni tsuite' WHERE product_id = 9;
+UPDATE products SET name = 'Sono taegatai itami ga machi wo kakenuke soshite tsui ni wa hoshi to naru' WHERE product_id = 10;
+UPDATE products SET name = 'Keshite sonzai shiteinai watashi no itami ni tsuite' WHERE product_id = 11;
+UPDATE products SET name = 'Tokyo - Ueno' WHERE product_id = 12;
+UPDATE products SET name = 'Sententeki kekkan ni tsuite' WHERE product_id = 13;
+UPDATE products SET name = 'Oshigoto' WHERE product_id = 14;
+
+
+//-------------------
+
+
+UPDATE products SET price = 6000 WHERE product_id > 0;
+UPDATE products SET genre = 'black' WHERE product_id > 0;
+
+
+//-------------------
+
+
+UPDATE products SET name = 'ud1' WHERE product_id = 15;
+UPDATE products SET name = 'ud1' WHERE product_id = 16;
+UPDATE products SET name = 'ud1' WHERE product_id = 17;
+UPDATE products SET name = 'ud1' WHERE product_id = 18;
+UPDATE products SET name = 'ud1' WHERE product_id = 19;
+UPDATE products SET name = 'ud1' WHERE product_id = 20;
+

@@ -1,0 +1,2 @@
+
+UPDATE wheres SET group_name = 'グロソリ部門' WHERE name_s = '';

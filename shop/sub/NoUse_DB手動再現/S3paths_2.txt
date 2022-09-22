@@ -1,0 +1,16 @@
+UPDATE wheres SET group_name = '' WHERE path_m = '';
+
+
+ALTER TABLE products RENAME COLUMN path TO path_m;
+
+//-------------------
+
+UPDATE products SET path_m = '' WHERE product_id = '';
+UPDATE products SET path_s = '' WHERE product_id = '';
+
+ALTER TABLE products DROP COLUMN path_s;
+ALTER TABLE products ADD COLUMN path_s text[];
+
+
+
+

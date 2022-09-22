@@ -1,0 +1,19 @@
+
+だめ中止★
+
+
+  ('product_id ', ' name ', ' price ', ' contents ', ' genre ', ' path_m ', ' path_s' )
+
+('  18 ', ' yankee hotel foxtrot ', ' 6000 ', ' contents ', ' yhf ', '{https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/18/188063155_931710704336339_6446631980017306518_n.jpg ', , https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com }' ), 
+('  17 ', ' yankee hotel foxtrot ', ' 6000 ', ' contents ', ' yhf ', '{https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/17/187747496_162929445837618_3240742607582399052_n.jpg ', , https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com }' ), 
+('  22 ', ' yankee hotel foxtrot ', ' 6000 ', ' contents ', ' yhf ', '{https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/22/197401167_538027710542797_4668393991532985447_n.jpg ', , https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com }' ), 
+('  21 ', ' yankee hotel foxtrot ', ' 6000 ', ' contents ', ' yhf ', '{https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/21/193202893_117662243813528_619781662667381484_n.jpg ', , https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com }' ), 
+('  19 ', ' yankee hotel foxtrot ', ' 6000 ', ' contents ', ' yhf ', '{https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/19/189698226_105547141637857_180924298139257165_n.jpg ', , https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com }' ), 
+('  23 ', ' yankee hotel foxtrot ', ' 6000 ', ' contents ', ' yhf ', '{https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/23/217722937_532260308123063_1978304942131091974_n.jpg ', , https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com }' ), 
+('  20 ', ' yankee hotel foxtrot ', ' 6000 ', ' contents ', ' yhf ', '{https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/20/192803633_512787819757709_3211696025002629058_n.jpg ', , https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com }' ), 
+(' }
+(' 24 ', ' yankee hotel foxtrot ', '  6000 ', ' contents ', ' yhf   ', ' https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/24/219856777_367470448071764_1088333697831990295_n.jpg         ', ' {https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/24/sub/219856777_367470448071764_1088333697831990295_n%20-%20%E3%82%B3%E3%83%94%E3%83%BC%20%282%29.jpg}
+(' 26 ', ' yankee hotel foxtrot ', '  6000 ', ' contents ', ' yhf   ', ' https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/26/240281434_3963312617125056_1834956532030566504_n.jpg        ', '}
+(' 27 ', ' yankee hotel foxtrot ', '  6000 ', ' contents ', ' yhf   ', ' https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/27/228476670_3919825904792729_8146347477233692083_n.jpg        ', '}
+(' 23 ', ' yankee hotel foxtrot ', '  6000 ', ' contents ', ' yhf   ', ' https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/23/217722937_532260308123063_1978304942131091974_n.jpg         ', ' {https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/23/sub/217722937_532260308123063_1978304942131091974_n%20-%20%E3%82%B3%E3%83%94%E3%83%BC%20%282%29.jpg}
+(' 25 ', ' yankee hotel foxtrot ', '  6000 ', ' contents ', ' yhf   ', ' https://nuxt-laravel-s3.s3.ap-northeast-1.amazonaws.com/images/products/yhf/25/240493852_3251211778337350_7544133704671514501_n%281%29.jpg ', '}

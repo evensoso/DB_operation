@@ -1,0 +1,16 @@
+
+UPDATE products SET contents ='Tokyo is full of many industries. Why is that company still reigning at the top? When reporters approached, it turned out that the company had a sun on the roof. 'WHERE product_id = 1;
+UPDATE products SET contents ='I know that humans are compatible. In the past, due to his weakness, he could easily break a relationship with this person. But I think Ive come to meet people who want to see the future and want to tell them again and again, no matter how many times they pass each other. 'WHERE product_id = 2;
+UPDATE products SET contents ='What am I fighting? Thats right, what am I fighting for? My own past. Obsession. I wonder what if. 'WHERE product_id = 3;
+UPDATE products SET contents ='Colors and scents remain in my memories. Occasionally, that feeling of air clings to my body and reminds me of that moment. 'WHERE product_id = 4;
+UPDATE products SET contents ='The end is always sudden.' WHERE product_id = 5;
+UPDATE products SET contents ='I like taxis. I usually ride after the last train and after drinking alcohol. With unique memories, the memory gradually fades in the slow interior of the car and the lively lights of the city. 'WHERE product_id = 6;
+UPDATE products SET contents ='Head doesnt listen. My head is always complicated. Driven by secreted substances, we write, meet and live. 'WHERE product_id = 7;
+UPDATE products SET contents ='' WHERE product_id = 8;
+UPDATE products SET contents ='The body separates and you dont hear what you say. With a very simple load, humans tremble in the memory and sensation turned inside out, wondering if it will end. 'WHERE product_id = 9;
+UPDATE products SET contents ='Looking at the unchanging ceiling. I cant hide my confusion in the current situation and feelings that change at a tremendous speed. However, I am still pursuing the feeling of that day. I can be more free. Im excited to run through the city today with the feeling that Im about to jump out.
+'WHERE product_id = 10;
+UPDATE products SET contents ='I was disappointed with my compassion while having this pain that I couldnt tell anyone, but again. 'WHERE product_id = 11;
+UPDATE products SET contents ='Shinobazu Pond in Ueno Park where the sun sets. Lots of traffic and cold low-malt beer. Its a little, but when I feel like I can see something, I start walking again. 'WHERE product_id = 12;
+UPDATE products SET contents ='Occasionally, its all over and I feel like Im alive with misunderstandings. What is driving me and what am I doing now? I wander around the city in the middle of 20 years old, not even knowing if I need to think about it. 'WHERE product_id = 13;
+UPDATE products SET contents ='Work to live. The words that he enjoys his life, which he often likes as a job, are confused, putting a load on the masses and adding a lot of strength. What do you like? 'WHERE product_id = 14 ;
